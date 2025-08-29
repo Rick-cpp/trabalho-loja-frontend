@@ -1,0 +1,124 @@
+{
+    "produtos": [
+        {
+            "nome": "Vaso Marajoara B 38 x 35 cm Antique Terracota",
+            "desc": "Material: Polietileno,Cor: Terracota,caracteristica: Leve,Estilo: Casual,Formato: Vaso de planta",
+            "shop": 171.55,
+            "link": "https://www.amazon.com.br/Vaso-Marajoara-38-Antique-Terracota/dp/B0CFM98MXS/ref=sr_1_5?crid=VUD3ITNT26QV&dib=eyJ2IjoiMSJ9.6_WXQFxqSMaDNqnll41wLGiigTGRJhujQuSVAcHWL_CusWm842fXtovbC3LAgnGgDrM2i4hahfcpONFpe7DSUu4DPL8GyslAKhJBaGdGBZSod3ACs2Io5tJMhP094YcTUNzVZNiDCsRv9abauAFGIIRqcaz2--Gx4aaxXSKsmn2wtF9ydPl10YAchkSqpcDCbgvdNY70WYgR2ksoMBj218zNcOiDYCEw5jFdP2Km8Mf3hwVTJOh7JK4sUM3L5KIHA9h7zXicNEzEETtrLWCVEqWdCnALcUS8TFcp0BKAGgE.RZ-h00EadqKclxllroERLAYN_TAEXVGOBhKLxB1mL6Y&dib_tag=se&keywords=vaso+ceramica+marajoara&qid=1756481332&sprefix=vaso+ceramica+mar%2Caps%2C192&sr=8-5&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12",
+            "imag": [
+                "https://m.media-amazon.com/images/I/51NzEdI+csL._AC_SX679_.jpg",
+                "https://m.media-amazon.com/images/I/51NzEdI+csL._AC_SX679_.jpg"
+            ]
+        },
+        {
+            "nome": "Conjunto com 6 Pratos Raso Tropicos Ø29cm",
+            "desc": "Material: Cerâmica,Cor: Branca,Marca: Alleanza,Caracteristica: Seguro para micro-ondas",
+            "shop": 155.76,
+            "link": "https://www.amazon.com.br/Conjunto-Alleanza-Pratos-Raso-Tropicos/dp/B0824CZZVK/ref=sr_1_32?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PCNR9JR7D2I3&dib=eyJ2IjoiMSJ9.xGC9TJG47gB73kRzseuiGUmDLsDsGRHEm1BYMrPfynfuVQqvYlZi6H9DvDeZOU49p54zZul8aPbNhE-tDTsFnm0D6111O_YavA9m4T8fST2LWeAyKyn2_NukLoM3a3R5VPtsV50KsJagJ9VbojIqq1xoV2nnvQtWcaCWNuDERPVDrfM41RJf9WhO1AFhnOUEU_W93Hj8eVe22hX_46uQ_EmNnzR9gpPLezxRXrojSNQJN7M1lI4iNwxnm5-_LL-e_ulAyblhUKShGiBB6NCIDDUgXm3qE1q6UGmbNKKqK6M.ROvFlYT_fYjuQrmaqQL7tUzOP0J8fe2rwRGuUCsUnE4&dib_tag=se&keywords=prato%2Bceramica%2Bmarajoara&qid=1756482003&sprefix=prato%2Bceramica%2Bmarajoara%2Caps%2C192&sr=8-32&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74&th=1",
+            "imag": [
+                "https://m.media-amazon.com/images/I/71OLLYrzC9L._AC_SX679_.jpg",
+                "https://m.media-amazon.com/images/I/5165Nyqc3NL._AC_SX679_.jpg"
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        },
+        {
+            "nome": "",
+            "desc": "",
+            "shop": 0.0,
+            "link": "",
+            "imag": [
+                "",
+                ""
+            ]
+        }
+    ]
+}
