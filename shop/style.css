@@ -1,0 +1,4 @@
+.app-border-over {
+    border-color: var(--color-pakistan-green) !important;
+    width: fit-content;
+}
