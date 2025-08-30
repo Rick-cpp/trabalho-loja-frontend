@@ -46,7 +46,6 @@ const data = {
             "shop": 80,
             "link": "https://www.mercadolivre.com.br/jarro-marajoara/up/MLBU3161682481#polycard_client=search-nordic&wid=MLB5379039172&search_layout=stack&position=39&type=product&tracking_id=de75a021-d239-47e1-a966-e616a00d0607&sid=search",
             "imag": [
-                "https://www.mercadolivre.com.br/jarro-marajoara/up/MLBU3161682481#polycard_client=search-nordic&wid=MLB5379039172&search_layout=stack&position=39&type=product&tracking_id=de75a021-d239-47e1-a966-e616a00d0607&sid=search",
                 "https://http2.mlstatic.com/D_NQ_NP_680331-MLB84422770863_052025-O.webp"
             ]
         },
@@ -116,8 +115,7 @@ const data = {
             "shop": 133.31,
             "link": "https://produto.mercadolivre.com.br/MLB-3942079603-panela-barro-marajoara-grande-n7-umbanda-candomble-_JM#polycard_client=recommendations_home_second-best-navigation-trend-recommendations&reco_backend=machinalis-homes-univb&reco_client=home_second-best-navigation-trend-recommendations&reco_item_pos=5&reco_backend_type=function&reco_id=552f997a-31f6-466d-8b41-c3667a0f46bf&c_id=/home/second-best-navigation-trend-recommendations/element&c_uid=063be7e4-90c6-4999-bea9-a5881f0b087c",
             "imag": [
-                "https://http2.mlstatic.com/D_NQ_NP_675438-MLB81659033977_122024-O-panela-barro-marajoara-grande-n7-umbanda-candomble.webp",
-                ""
+                "https://http2.mlstatic.com/D_NQ_NP_675438-MLB81659033977_122024-O-panela-barro-marajoara-grande-n7-umbanda-candomble.webp"
             ]
         }
     ]

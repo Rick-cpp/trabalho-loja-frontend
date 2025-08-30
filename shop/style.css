@@ -2,3 +2,20 @@
     border-color: var(--color-pakistan-green) !important;
     width: fit-content;
 }
+
+.app-btn-primary {
+    --bs-btn-color: var(--color-cornsilk);
+    --bs-btn-bg: var(--color-earth-yellow) !important;
+    --bs-btn-border-color: var(--color-earth-yellow) !important;
+    --bs-btn-hover-color: var(--color-cornsilk);
+    --bs-btn-hover-bg: var(--color-tigers-eye) !important;
+    --bs-btn-hover-border-color: var(--color-earth-yellow) !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--color-cornsilk);
+    --bs-btn-active-bg: var(--color-tigers-eye) !important;
+    --bs-btn-active-border-color: var(--color-earth-yellow) !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--color-cornsilk);
+    --bs-btn-disabled-bg: var(--color-earth-yellow) !important;
+    --bs-btn-disabled-border-color: var(--color-earth-yellow) !important;
+}

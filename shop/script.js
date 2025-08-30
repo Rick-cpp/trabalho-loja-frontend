@@ -3,6 +3,9 @@ class AppList extends HTMLElement {
         super();
     }
 
+    /**
+     * Renderiza o elemento
+     */
     connectedCallback() {
         data.produtos.forEach((produto, index) => {
             let { nome, desc, shop, link, imag } = produto;
@@ -20,6 +23,14 @@ class AppList extends HTMLElement {
         });
     }
 
+    /**
+     * Controi os dados do item
+     * @param {string} nome Nome da Loja
+     * @param {string} desc Descrição do produto
+     * @param {number} shop Preço do produto
+     * @param {string} link Caminho que vai ser redirecionado
+     * @returns {HTMLDivElement}
+     */
     createItemBody(nome, desc, shop, link) {
         let div = document.createElement("div");
         div.className = "card-body";
@@ -41,8 +52,9 @@ class AppList extends HTMLElement {
 
         let elementButton = document.createElement("a");
         elementButton.innerText = "Comprar";
-        elementButton.className = "btn btn-primary btn-sm";
-        elementButton.setAttribute("href", link)
+        elementButton.className = "btn app-btn-primary btn-sm";
+        elementButton.setAttribute("href", link);
+        elementButton.setAttribute("target", "_blank");
 
         divContent.appendChild(elementShop);
         divContent.appendChild(elementButton);
@@ -55,6 +67,7 @@ class AppList extends HTMLElement {
     }
 
     /**
+     * Constroi os items
      * @param {string[]} links
      * @param {string} carouselId
      * @returns {HTMLDivElement}
@@ -109,8 +122,6 @@ class AppList extends HTMLElement {
 
         div.appendChild(prev);
         div.appendChild(next);
-
-        console.log(prev.innerHTML);
 
         return div;
     }
