@@ -12,12 +12,12 @@ class AppNavbar extends HTMLElement {
 
         let brand = document.createElement("a");
         brand.className = "navbar-brand text-white";
-        brand.href = "./index.html";
+        brand.href = this.getAttribute("index");
         brand.innerText = "COP30 Shop";
 
         let loja = document.createElement("a");
         loja.className = "nav-link btn app-btn-primary text-white px-4 py-2";
-        loja.href = "#";
+        loja.href = this.getAttribute("shop");;
 
         let icon = document.createElement("i");
         icon.className = "bi bi-basket-fill";

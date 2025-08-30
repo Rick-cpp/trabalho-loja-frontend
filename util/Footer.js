@@ -15,9 +15,10 @@ class AppFooter extends HTMLElement {
         let p2 = document.createElement("p");
 
         let link = document.createElement("a");
-        link.href = "#";
+        link.href = "https://github.com/Rick-cpp/trabalho-loja-frontend/tree/vendas";
         link.className = "text-white mx-2";
         link.textContent = "Github";
+        link.target = "_blank"
 
         p2.appendChild(link);
 
