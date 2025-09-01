@@ -1,0 +1,26 @@
+.image-background {
+    position: relative;
+    height: 512px;
+    margin-bottom: 4rem;
+}
+
+.image-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px) brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.image-background .content {
+    color: white;
+    position: relative;
+    padding: 2rem;
+}
+
+.app-reverse {
+    background-color: var(--color-earth-yellow);
+}
