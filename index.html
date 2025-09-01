@@ -31,6 +31,29 @@
             padding: 2rem 1rem;
             border-radius: .3rem;
         }
+
+        /* Garantir que o carrossel fique atrás do bloco de boas-vindas */
+        .carousel-bg-container {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+        #carouselBg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        #carouselBg .carousel-inner,
+        #carouselBg .carousel-item,
+        #carouselBg img {
+            height: 100%;
+        }
+        .carousel-bg-container .p-5.bg-light.rounded-3 {
+            z-index: 2;
+        }
     </style>
 </head>
 
@@ -40,49 +63,30 @@
 
     <main class="container mt-4">
 
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5 text-center">
-                <h1 class="display-5 fw-bold">Bem-vindo(a) à COP30 Shop</h1>
-                <p class="fs-4">Encontre tudo o que você precisa, de eletrônicos a itens de casa, com os melhores
-                    preços!</p>
-                <a href="#" class="btn btn-primary btn-lg">Começar a Comprar</a>
+        <div class="carousel-bg-container position-relative mb-4" style="height: 400px;">
+            <div id="carouselBg" class="carousel slide h-100" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 h-100" alt="Banner 1" style="object-fit: cover; filter: brightness(0.6);">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 h-100" alt="Banner 2" style="object-fit: cover; filter: brightness(0.6);">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 h-100" alt="Banner 3" style="object-fit: cover; filter: brightness(0.6);">
+                    </div>
+                </div>
+            </div>
+            <div class="p-5 rounded-3 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="z-index: 2; background: rgba(255,255,255,0.3);">
+                <div class="container-fluid py-5 text-center">
+                    <h1 class="display-5 fw-bold">COP30: Artes da Amazônia para o Mundo</h1>
+                    <p class="fs-4">Bem-vindo à COP30 Shop! Aqui você encontra produtos exclusivos, feitos por artesãos da Amazônia, celebrando a cultura e a sustentabilidade. Participe do movimento COP30 e leve o melhor da nossa região para o mundo!</p>
+                    <a href="#" class="btn btn-primary btn-lg">Começar a Comprar</a>
+                </div>
             </div>
         </div>
 
-        <h2 class="mt-5 mb-3">Categorias Populares</h2>
-        <div class="row text-center mb-5">
-            <div class="col-6 col-md-3 mb-3">
-                <a href="#" class="d-block text-decoration-none">
-                    <div class="card p-3 shadow-sm h-100">
-                        <i class="bi bi-phone-fill fs-2 text-icon"></i>
-                        <p class="mt-2 mb-0">Eletrônicos</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-                <a href="#" class="d-block text-decoration-none">
-                    <div class="card p-3 shadow-sm h-100">
-                        <i class="bi bi-house-fill fs-2 text-icon"></i>
-                        <p class="mt-2 mb-0">Casa e Decoração</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-                <a href="#" class="d-block text-decoration-none">
-                    <div class="card p-3 shadow-sm h-100">
-                        <i class="bi bi-car-front-fill fs-2 text-icon"></i>
-                        <p class="mt-2 mb-0">Veículos</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-                <a href="#" class="d-block text-decoration-none">
-                    <div class="card p-3 shadow-sm h-100">
-                        <i class="bi bi-controller fs-2 text-icon"></i>
-                        <p class="mt-2 mb-0">Games</p>
-                    </div>
-                </a>
-            </div>
+        </div>
         </div>
 
         <h2 class="mt-5 mb-3">Produtos em Destaque</h2>
