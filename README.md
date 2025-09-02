@@ -11,10 +11,10 @@ interface de e-commerce focando na COP 30.
 A COP30 é um movimento global pela sustentabilidade. Este site apoia a causa, promovendo produtos que respeitam o meio ambiente e valorizam a cultura amazônica.
 
 ## Equipe:
-| Rick: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Rick-cpp)
-| Andre: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Andr3Dav1d)
-| Dan: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/danndz)
-| Luiz: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/zuil95)
+- Rick: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Rick-cpp)
+- Andre: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Andr3Dav1d)
+- Dan: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/danndz)
+- Luiz: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/zuil95)
 
 ## ✨ Sobre o Projeto
 
