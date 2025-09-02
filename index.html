@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="util/Footer.css">
     <link rel="stylesheet" href="/util/header/header.css">
+    <link rel="stylesheet" href="style.css">
 
     <script src="util/Footer.js"></script>
 
@@ -61,15 +62,34 @@
 
     <main class="container mt-4">
 
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5 text-center">
-                <h1 class="display-5 fw-bold">Bem-vindo(a) à COP30 Shop</h1>
-                <p class="fs-4">Encontre tudo o que você precisa, de eletrônicos a itens de casa, com os melhores
-                    preços!</p>
-                <a href="#" class="btn btn-primary btn-lg">Começar a Comprar</a>
+            <div class="carousel-bg-container position-relative mb-4" style="height: 400px">
+                <div id="carouselBg" class="carousel slide h-100 carrossel-container" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <img src="/assets/artesanato/marajoara.jpg" class="d-block w-100 h-100" alt="Marajoara" style="object-fit: cover; filter: brightness(0.6);" id="carrossel-img">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/comida/açai.jpg" class="d-block w-100 h-100" alt="Açai" style="object-fit: cover; filter: brightness(0.6);" id="carrossel-img">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/turismo/parque-da-cidade.jpg" class="d-block w-100 h-100" alt="parque da Cidade" style="object-fit: cover; filter: brightness(0.6);" id="carrossel-img">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/turismo/docas.jpg" class="d-block w-100 h-100" alt="Docas" style="object-fit: cover; filter: brightness(0.6);" id="carrossel-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="z-index: 2; background: rgba(255,255,255,0.3);">
+                    <div class="container-fluid py-5 text-center">
+                        <div id="carrossel-bloco">
+                            <h1 id="carrossel-titulo" class="display-5 fw-bold">COP30: Artes da Amazônia para o Mundo</h1>
+                            <p id="carrossel-subtitulo" class="fs-4">Bem-vindo à COP30 Shop! Aqui você encontra produtos exclusivos, feitos por artesãos da Amazônia, celebrando a cultura e a sustentabilidade. Participe do movimento COP30 e leve o melhor da nossa região para o mundo!</p>
+                            <a href="#" class="btn btn-primary btn-lg">Começar a Comprar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
+            
         <h2 class="mt-5 mb-3">Categorias Populares</h2>
         <div class="row text-center mb-5">
             <div class="col-6 col-md-3 mb-3">

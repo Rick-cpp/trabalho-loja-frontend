@@ -1,0 +1,26 @@
+.carrossel-container {
+    border: 3px solid #198754;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#carrossel-img {
+    border-radius: 15px;
+}
+
+#carrossel-bloco {
+    border: 3px solid #198754;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 1em;
+}
+#carrossel-titulo {
+    color: var(--color-cornsilk);
+    -webkit-text-stroke-width: 2px; /* Width of the stroke */
+    -webkit-text-stroke-color: var(--color-pakistan-green); /* Color of the stroke */
+}
+
+#carrossel-subtitulo {
+    color: var(--color-cornsilk);
+}
