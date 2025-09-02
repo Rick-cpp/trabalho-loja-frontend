@@ -15,7 +15,7 @@ const searchBtn = document.getElementById("searchButton");
 function createElement(id, nome, desc, shop, link, imag) {
     // Criando o Container
     let container = document.createElement("div");
-    container.className = "card shadow-sm flex-fill col-12 col-md-5 card p-3";
+    container.className = "card product-card shadow-sm flex-fill col-12 col-md-5 card p-3";
     container.style.width = "18rem";
 
     if (imag.length > 1) {

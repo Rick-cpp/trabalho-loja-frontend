@@ -4,10 +4,10 @@ Este projeto é uma atividade passada pela disciplina de front-end Frameworks, n
 
 ## Alunos responsáveis
 
-- **André David Tavares Rodrigues Mendes `(04182774)`**
-- **Carlos Danilo Dias da Silva `(04180552)`**
-- **Luiz Fernando Bezerra da Conceição Furtado `(04190130)`**
-- **Pedro Henrique Miranda Barros `(04145413)`**
+- ** `()`**
+- ** `()`**
+- ** `()`**
+- ** `()`**
 
 ## ✨ Sobre o Projeto
 
