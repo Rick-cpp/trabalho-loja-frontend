@@ -17,12 +17,21 @@
 }
 #carrossel-titulo {
     color: var(--color-cornsilk);
-    -webkit-text-stroke-width: 2px; /* Width of the stroke */
-    -webkit-text-stroke-color: var(--color-pakistan-green); /* Color of the stroke */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--color-pakistan-green);
+    font-size: 3rem;           /* display-5 */
+    font-weight: 700;          /* fw-bold */
+    margin-bottom: 1.5rem;     /* mb-4 padrão md */
+    padding-left: 0;           /* px-md-0 */
+    padding-right: 0;
 }
 
 #carrossel-subtitulo {
     color: var(--color-cornsilk);
+    font-size: 1.5rem;         /* fs-4 padrão md */
+    margin-bottom: 1.5rem;     /* mb-4 */
+    padding-left: 0;           /* px-md-0 */
+    padding-right: 0;
 }
 
 .product-card {
@@ -40,3 +49,58 @@
             padding: 2rem 1rem;
             border-radius: .3rem;
         }
+
+#carrossel-bloco .btn {
+    font-size: 1.25rem;        /* btn-lg */
+    width: auto;               /* w-md-auto */
+    padding: 0.5rem 1rem;      /* btn-lg */
+}
+
+#carrossel-btn {
+    display: inline-block;
+    background-color: #198754;
+    color: var(--color-cornsilk);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transition: background 0.2s, transform 0.2s;
+}
+
+#carrossel-btn:hover,
+#carrossel-btn:focus {
+    background-color: #146c43;
+    color: #fff;
+    transform: translateY(-2px) scale(1.03);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  #carrossel-titulo {
+    font-size: 1.1rem;
+    -webkit-text-stroke-width: 0.5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  #carrossel-subtitulo {
+    font-size:0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  #carrossel-bloco .btn {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+  #carrossel-btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.1rem 0.4rem 0.1rem;
+  }
+}
