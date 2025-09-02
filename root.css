@@ -23,3 +23,12 @@
     --bs-btn-disabled-border-color: var(--color-earth-yellow) !important;
     min-width: 96px;
 }
+
+.fade-element {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-element.show {
+    opacity: 1;
+}

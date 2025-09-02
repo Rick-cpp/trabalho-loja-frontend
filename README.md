@@ -27,21 +27,7 @@ O COP30 Shop oferece uma experiência moderna e responsiva, permitindo que usuá
 - CSS3 (customizado e Bootstrap)
 - Bootstrap 5
 - Bootstrap Icons
-- JavaScript (componentes de navegação e rodapé)
-
-## 📦 Estrutura de Pastas
-
-```
-index.html
-root.css
-util/
-	Nav.js
-	Nav.css
-	Footer.js
-	Footer.css
-LICENSE
-README.md
-```
+- JavaScript (rodapé)
 
 ## ⚡ Como Executar
 
@@ -52,9 +38,7 @@ README.md
 2. Abra o arquivo `index.html` em seu navegador.
 
 ## 📄 Licença
-
 Este projeto está sob a licença MIT.
 
 ## 🌱 COP30
-
 A COP30 é um movimento global pela sustentabilidade. Este site apoia a causa, promovendo produtos que respeitam o meio ambiente e valorizam a cultura amazônica.
