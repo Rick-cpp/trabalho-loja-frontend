@@ -12,7 +12,7 @@ A COP30 é um movimento global pela sustentabilidade. Este site apoia a causa, p
 
 ## Equipe:
 - Rick: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Rick-cpp)
-- Andre: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Andr3Dav1d)
+- André David: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Andr3Dav1d)
 - Dan: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/danndz)
 - Luiz: [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/zuil95)
 
