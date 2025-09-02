@@ -1,0 +1,12 @@
+#mainHeader {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+#mainHeader.show {
+  transform: translateY(0);
+}
+
+.app-header {
+    background-color: var(--color-pakistan-green) !important;
+}

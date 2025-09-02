@@ -1,8 +1,8 @@
 .fade-element {
-  opacity: 0;
-  transition: opacity 1s ease-in-out; /* 1 segundo de duração */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 .fade-element.show {
-  opacity: 1;
+    opacity: 1;
 }

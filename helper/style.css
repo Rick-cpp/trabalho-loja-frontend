@@ -24,3 +24,13 @@
 .app-reverse {
     background-color: var(--color-earth-yellow);
 }
+
+#tabNav .nav-link {
+    color: var(--color-pakistan-green);
+    background-color: transparent;
+}
+
+#tabNav .nav-link.active {
+    color: var(--color-cornsilk);
+    background-color: var(--color-tigers-eye);
+}

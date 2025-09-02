@@ -6,31 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cop30 Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="../root.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../util/Nav.css">
     <link rel="stylesheet" href="../util/Footer.css">
+    <link rel="stylesheet" href="/util/header/header.css">
 
     <!-- Script -->
-    <script src="data.js"></script>
-    <script src="script.js"></script>
-    <script src="../util/Nav.js"></script>
+
     <script src="../util/Footer.js"></script>
 </head>
-<body>
-    <app-navbar index="../index.html" shop="#"></app-navbar>
 
-    <app-list class="d-flex flex-wrap gap-3"></app-list>
+<body>
+    <div style="height: 80px;"></div>
+    <header id="mainHeader" class="app-header text-white show fixed-top py-2">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="/index.html">COP30 Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn app-btn-primary" href="/shop/shop.html">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn app-btn-primary" href="/helper/help.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <div class="container my-4">
+            <div class="search-bar position-relative">
+                <form class="d-flex">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Buscar..."
+                        aria-label="Search">
+                </form>
+
+                <!-- Container de sugestões -->
+                <ul id="suggestions" class="list-group position-absolute w-100 d-none"></ul>
+            </div>
+
+        </div>
+        <div id="app-shop-list" class="d-flex flex-wrap gap-3"></div>
+    </div>
+
 
     <app-footer></app-footer>
 </body>
-
+<script src="data.js"></script>
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+<script src="/util/header/header.js"></script>
+
 
 </html>
