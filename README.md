@@ -2,13 +2,6 @@
 
 Este projeto é uma atividade passada pela disciplina de front-end Frameworks, no qual nossa turma foi desafiada a criar uma interface de e-commerce focando na COP 30.
 
-## Alunos responsáveis
-
-- ** `()`**
-- ** `()`**
-- ** `()`**
-- ** `()`**
-
 ## ✨ Sobre o Projeto
 
 O COP30 Shop oferece uma experiência moderna e responsiva, permitindo que usuários conheçam e adquiram itens exclusivos feitos por artesãos da região amazônica. O site celebra a COP30, incentivando práticas sustentáveis e valorizando a produção local.
@@ -29,13 +22,9 @@ O COP30 Shop oferece uma experiência moderna e responsiva, permitindo que usuá
 - Bootstrap Icons
 - JavaScript (rodapé)
 
-## ⚡ Como Executar
+## ⚡ Como Acessar
 
-1. Clone o repositório:
-	 ```bash
-	 git clone https://github.com/Rick-cpp/trabalho-loja-frontend.git
-	 ```
-2. Abra o arquivo `index.html` em seu navegador.
+- Você pode acessar o site nesse link: https://rick-cpp.github.io/trabalho-loja-frontend/
 
 ## 📄 Licença
 Este projeto está sob a licença MIT.
