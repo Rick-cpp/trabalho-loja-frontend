@@ -8,10 +8,10 @@
 }
 
 #suggestions {
-    z-index: 1000; /* valor alto suficiente */
-    background-color: white; /* importante para não ficar transparente */
-    max-height: 300px; /* opcional, para limitar altura */
-    overflow-y: auto;    /* scrollbar se necessário */
+    z-index: 1000;
+    background-color: white;
+    max-height: 300px;
+    overflow-y: auto;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
 }

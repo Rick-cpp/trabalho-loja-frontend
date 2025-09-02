@@ -140,6 +140,7 @@ function searchText() {
 
             const link = document.createElement("a");
             link.textContent = match.nome;
+            link.className = "text-black";
             link.href = match.link;
             link.target = "_blank";
 
