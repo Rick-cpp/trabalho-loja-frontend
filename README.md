@@ -4,8 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
-Este projeto é uma atividade passada pela disciplina de front-end Frameworks, no qual nossa turma foi desafiada a criar uma 
-interface de e-commerce focando na COP 30.
+Este projeto é uma atividade enviada para a disciplina de Front-End Frameworks, no qual nossa turma foi desafiada a criar uma interface de e-commerce focando na COP 30.
 
 ## 🌱 COP30
 A COP30 é um movimento global pela sustentabilidade. Este site apoia a causa, promovendo produtos que respeitam o meio ambiente e valorizam a cultura amazônica.
